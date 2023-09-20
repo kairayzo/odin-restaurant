@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Fazbear's Pizzaria</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="navbar">
+            <img src="../src/navbar/Logo.png" alt="Logo of Freddy Fazbear's Pizzaria" id="img-logo">
+            <div class="btn-grp">
+                <button class="nav-btn">Home</button>
+                <div class="nav-break"></div>
+                <button class="nav-btn">Our Menu</button>
+                <div class="nav-break"></div>
+                <button class="nav-btn">Contact Us</button>
+            </div>
+        </div>
+        <div class="background">
+            <div class="side-background"></div>
+            <div class="main-background">
+                <div id="home">
+                    <div class="title-container">
+                        <div class="title">Welcome to Freddy's Fazbear Pizzaria</div>
+                        <div class="title-offset">Welcome to Freddy's Fazbear Pizzaria</div>
+                    </div>
+                    <div class="writeup">
+                        <div class="flex vert">
+                            <img src="../src/home/band_graphic.jpg" alt="Freddy and his band" class="img-band">
+                            <div class="para">
+                                Come on down to Freddy's Fazbear Pizzaria, the newest Pizza joint in town!
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="container vert flex-item">
+                                <div class="home-img-container">
+                                    <img src="../src/home/food_graphic.png" alt="Pizza" class="img-food">
+                                </div>
+                                <div class="para">
+                                    Enjoy our wide array of dining options while Freddy and his band entertain you with their show
+                                </div>
+                            
+                            </div>
+                            <div class="container vert flex-item">
+                                <div class="home-img-container">
+                                    <img src="../src/home/arcade_graphic.png" alt="arcade machine" class="img-arcade">
+                                </div>
+                                <div class="para">
+                                    Have a blast at Freddy's arcade and win attractive prizes
+                                </div>
+                            </div>
+                            <div class="container vert flex-item">
+                                <div class="home-img-container">
+                                    <img src="../src/home/mic_graphic.png" alt="mic" class="img-mic">
+                                </div>
+                                <div class="para">
+                                    We even throw birthday parties where the birthday child can request a song from Freddy!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="para">
+                                <div>Disclaimer:</div> 
+                                <div>Freddy's Fazbear Pizzaria is a fictional restaurant franchise inspired by the video game series Five Nights at Freddy's and its fanart</div>
+                                <div>The developer does not hold any rights to the concept and assets used</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div id="menu">
+                    <div class="title-container">
+                        <div class="title">Our Selection</div>
+                        <div class="title-offset">Our Selection</div>
+                    </div>
+                    <div class="menu-container">
+                        <div class="menu-grid">
+                            <div class="menu-img-container"><img src="../src/menu/pizza_graphic.png" alt="pizza"></div>
+                            <div class="menu-img-container"><img src="../src/menu/burger_graphic.png" alt="burger"></div>
+                            <div class="menu-img-container"><img src="../src/menu/roll_graphic.png" alt="roll"></div>
+                            <div class="menu-img-container"><img src="../src/menu/salad_graphic.png" alt="salad"></div>
+                            <div class="menu-img-container"><img src="../src/menu/nugget_graphic.png" alt="nugget"></div>
+                            <div class="menu-img-container"><img src="../src/menu/fries_graphic.png" alt="fries"></div>
+                            <div class="menu-img-container"><img src="../src/menu/hotdog_graphic.png" alt="hotdog"></div>
+                            <div class="menu-img-container"><img src="../src/menu/drink_graphic.png" alt="drink"></div>
+                            <div class="menu-img-container"><img src="../src/menu/donut_graphic.png" alt="donut"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact">
+                    <div class="title-container">
+                        <div class="title">Contact Us</div>
+                        <div class="title-offset">Contact Us</div>
+                    </div>
+                    <div class="contact-container">
+                        <div class="flex-item gap">
+                            <div>
+                                <div  class="contact-para-container">
+                                    <div class="contact-img-container"><img id="img-phone" src="../src/contact/phone_graphic.png" alt="Phone"></div>
+                                    <div>Email us:</div>
+                                </div>
+                                <a href="mailto:freddyentertainment@example.com">freddyentertainment@example.com</a>
+                            </div>
+                            <div>
+                                <div class="contact-para-container">
+                                    <div class="contact-img-container"><img id="img-TV" src="../src/contact/TV_graphic.png" alt="Television"></div>
+                                    <div>Call us:</div>
+                                </div>
+                                <div class="contact-text-container">1234-5678-900</div>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div class="contact-map-container">
+                                <div class="contact-para-container">
+                                    <div class="contact-img-container"><img id="img-TV" src="../src/contact/car_graphic.png" alt="Television"></div>
+                                    <div>Locate us:</div>
+                                </div>
+                                <div class="contact-img-container">
+                                    <img id="img-map" src="../src/contact/map_graphic.jpg" alt="Map of Freddy's Pizzaria">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-background"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- links
+
+-->
