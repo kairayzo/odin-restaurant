@@ -1,11 +1,8 @@
-import './style.css'
-import generateElement from './helper'
-
 import Navbar from './navbar'
 import Home from './home'
 import Background from './background'
 
-const content = generateElement('div','','content')
+const content = document.querySelector('#content')
 const background = Background()
 const navbar = Navbar()
 const home = Home()
